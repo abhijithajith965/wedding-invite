@@ -134,9 +134,9 @@
     animation: fadeUp 0.9s ease forwards 0.95s;
   }
 
-  .doctor-tag{
+  .parent-tag{
     font-family:'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing:0.18em;
     color:var(--gold);
     text-transform:uppercase;
@@ -144,6 +144,16 @@
     margin-top:2px;
     opacity:0;
     animation: fadeUp 0.9s ease forwards 0.6s;
+  }
+  .address-tag{
+    font-family:'Montserrat', sans-serif;
+    font-style:uppercase;
+    font-size: 10px;
+    color:#7a6a58;
+    display:block;
+    margin-top:2px;
+    opacity:0;
+    animation: fadeUp 0.9s ease forwards 0.65s;
   }
 
   .divider{
@@ -257,6 +267,17 @@
   }
   .map-link:hover{ color:var(--gold); border-color:var(--gold); }
   .map-link:focus-visible{ outline:2px solid var(--maroon); outline-offset:3px; }
+
+  .event-note{
+    margin: 26px auto 0;
+    max-width: 400px;
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:15.5px;
+    line-height:1.6;
+    color:var(--maroon);
+    letter-spacing:0.01em;
+  }
 
   /* ---------- Add to calendar ---------- */
   .cal-add{
@@ -782,7 +803,8 @@
 
     <div class="names">
       <span class="bride-name">Dr. Sandra Ajith</span>
-      <!-- <span class="doctor-tag">Dr. Sandra Ajith</span> -->
+      <span class="parent-tag">D/O Mr.Ajithkumar C & Mrs.Anitha Ajith</span>
+      <span class="address-tag">Kottoor House, Perumpuzha, Kollam</span>
     </div>
 
     <div class="divider" aria-hidden="true">
@@ -796,6 +818,10 @@
     </div>
 
     <span class="groom-name">Gokul Surendran</span>
+    <span class="parent-tag">S/O Mr.Surendran A S & Mrs.Sheeja Surendran</span>
+    <span class="address-tag">Ayroor Thottathil Veedu, Anchal, Kollam</span>
+
+
 
     <p class="invite-line">request the honour of your presence as they begin their journey together in marriage</p>
 
@@ -835,6 +861,8 @@
         <span class="qr-caption">Scan for directions</span>
       </div>
     </div>
+
+    <!-- <p class="event-note">Please note: there will be no reception on the day before the wedding.</p> -->
 
     <p class="signoff">Sandra &amp; Gokul
       <span class="small">We can't wait to celebrate with you</span>
